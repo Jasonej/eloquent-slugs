@@ -1,0 +1,26 @@
+{
+    "name": "unraveledmnd/eloquent-slugs",
+    "description": "A package for definining and generating slugs on Eloquent models.",
+    "require": {
+        "illuminate/database": "^5.8"
+    },
+    "authors": [
+        {
+            "name": "Jason Jones",
+            "email": "jason.erik.jones+github@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jasonej\\EloquentSlugs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jasonej\\EloquentSlugs\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    }
+}
