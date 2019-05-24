@@ -1,5 +1,5 @@
 {
-    "name": "unraveledmnd/eloquent-slugs",
+    "name": "jasonej/eloquent-slugs",
     "description": "A package for definining and generating slugs on Eloquent models.",
     "require": {
         "illuminate/database": "^5.8"
